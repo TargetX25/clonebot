@@ -113,5 +113,5 @@ async def clone_medias(client: Bot, message: Message):
     source_chat.pop(ID)
     destination_chat.pop(ID)
     await status_message.delete()
-    await client.USER.leave_chat(status_message.chat.id)
+    await cl
     return
